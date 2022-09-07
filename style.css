@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: white;
+}
+
+h1,p{
+    color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+#clickButton{
+    font-size: 20px;
+    background-color: yellow;
+}
+
+.dispari{
+    background-color: lightgreen;
+}
+
+.pari{
+    background-color: red;
+}
+
+.cell{
+    width: calc( 100% / 10 - 10px );
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
